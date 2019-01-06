@@ -1,6 +1,4 @@
-
 sudo:required
-
 services:
   - docker
 
@@ -10,4 +8,3 @@ before_install:
 
 script:
   - docker run peter6z32/udemy-docker-frontend npm run test -- --coverage
-
